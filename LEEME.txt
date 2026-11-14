@@ -1,0 +1,19 @@
+CONTROL DE TIENDA - APP INSTALABLE (iPhone y Android)
+=====================================================
+Esta carpeta es la app lista para publicar en internet (GitHub Pages, Netlify, etc.).
+Todo el programa va cifrado dentro de index.html: sin un token valido no se abre.
+
+CÓMO LA USA UNA PERSONA
+1. Abre el enlace de la app en su telefono.
+   - iPhone: Safari -> boton Compartir -> "Agregar a pantalla de inicio".
+   - Android: Chrome -> menu (3 puntos) -> "Instalar app" / "Agregar a pantalla de inicio".
+2. Al abrirla ve su CODIGO DE DISPOSITIVO. Lo copia o lo comparte contigo.
+3. Tu abres "Generador de licencias.html" (carpeta ControlTienda-Licencias), pegas el codigo,
+   eliges la duracion y copias el token. Se lo envias por WhatsApp.
+4. La persona pega el token y toca "Activar". Ese token solo funciona en SU dispositivo.
+
+NOTAS
+- Los datos de cada persona se guardan en su propio dispositivo (no se mezclan con los tuyos).
+- Si la persona borra los datos del navegador o cambia de telefono, tendra un codigo nuevo y
+  necesitara un token nuevo.
+- Para actualizar la app: vuelve a subir estos archivos (los tokens ya emitidos siguen sirviendo).
